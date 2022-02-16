@@ -1,0 +1,123 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+table tr td {
+	color: #fff;
+	align-items: center;
+	background: #533703;
+}
+
+div p{
+	color: #fff;
+	float: left;
+	padding: 0px 20px;
+}
+
+.contain {
+	font-family: sans-serif;
+	color: #ffffff;
+	border: 5px solid #fff;
+	width: 270px;
+	padding: 50px;
+	margin: 100px 15px;
+	text-align: center;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.container {
+	position: relative;
+	width: 1200px;
+	height: 300px;
+	align-items: center;
+	margin: 50px 0px;
+}
+
+.container .box {
+	position: relative;
+	width: calc(400px - 30px);
+	height: 520px;
+	background: #533703;
+	float: left;
+	margin: 15px;
+	box-sizing: border-box;
+	overflow: hidden;
+	border-radius: 10px;
+	align-content: center;
+}
+
+h2 {
+	color: #fff;
+	font-size: 22px;
+	line-height: 55px;
+	float: left;
+	padding: 0px 20px;
+}
+
+body{
+	background-image: url("img/tracraft.jpg");
+	background-size: 1920px 1080px;
+}
+
+nav{
+	width: 100%;
+	height: 60px;
+	background-color: #fff;
+}
+
+nav p{
+	font-family: all;
+	color: #222;
+	font-size: 22px;
+	line-height: 55px;
+	float: left;
+	padding: 0px 20px;
+}
+
+nav ul{
+	float: left;
+}
+
+nav ul li{
+	float: left;
+	list-style: none;
+	position: relative;
+}
+
+nav ul li a{
+	display: block;
+	font-family: all;
+	color: #222;
+	font-size: 14px;
+	padding: 22px 14px;
+	text-decoration: none;
+}
+
+nav ul li ul{
+	display: none;
+	position: absolute;
+	background-color: #fff;
+	padding: 10px;
+	border-radius: 0px 0px 4px 4px;
+}
+
+nav ul li:hover ul{
+	display: block;
+}
+
+nav ul li ul li{
+	width: 180px;
+	border-radius: 4px;
+}
+
+
+nav ul li ul li a{
+	padding: 8px 14px;
+}
+
+nav ul li ul li a:hover{
+	background-color: #f3f3f3;
+}
